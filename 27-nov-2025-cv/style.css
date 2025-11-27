@@ -1,0 +1,37 @@
+/* CSS adicional para el fondo del navbar personalizado con Lila */
+        .navbar-custom {
+            background-color: #311B92; /* Lila medio para el menú */
+        }
+/* Estilos generales */
+body {
+    padding-top: 56px; /* Para que el menú no tape el contenido */
+    background-color: #f8f7ff; /* Fondo general muy claro, casi blanco con un toque de lila */
+}
+
+/* Color principal (Lila Oscuro) */
+.text-primary {
+    color: #6a5acd !important; /* SlateBlue/Lila más oscuro */
+}
+
+/* Estilo para la foto de perfil en la página de inicio */
+.custom-foto {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border: 5px solid #a25be5; /* Tono de Lila más brillante para el borde */
+    box-shadow: 0 4px 8px #311B92(0, 0, 0, 0.1);
+}
+
+/* Estilo para el footer: Asegura visibilidad del texto sobre un fondo claro */
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: #4a4a4a; /* Texto gris oscuro */
+    background-color: #eae7f0 !important; /* Fondo gris/lila claro para el footer */
+    border-top: 1px solid #d3cce0;
+}
+
+.footer span {
+    color: #4a4a4a !important;
+}
